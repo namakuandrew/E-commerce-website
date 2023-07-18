@@ -352,4 +352,67 @@ form a {
   padding-top: 50px;
 }
 
-/* about page */
+/* cart item detail */
+.cart-page {
+  margin: 30px auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.cart-info {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+th {
+  text-align: left;
+  padding: 9px;
+  color: #fff;
+  background: #da70d6;
+  font-weight: normal;
+  border-radius: 5px;
+}
+
+td {
+  padding: 10px 5px;
+}
+
+td input {
+  width: 40px;
+  height: 30px;
+  padding: 5px;
+  border-radius: 10px;
+  border: 0.5px solid #da70d6;
+}
+
+td a {
+  width: 80px;
+  font-size: 12px;
+}
+
+td img {
+  width: 80px;
+  margin-right: 10px;
+}
+
+.total-price {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.total-price table {
+  border-top: 3px solid #da70d6;
+  width: 100%;
+  max-width: 400px;
+}
+
+td:last-child {
+  text-align: right;
+}
+
+th:last-child {
+  text-align: right;
+}
