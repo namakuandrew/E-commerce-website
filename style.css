@@ -88,12 +88,55 @@ p {
   padding-right: 25px;
 }
 
+.row-2 {
+  justify-content: space-between;
+  margin: 100px auto 50px;
+}
+
+select {
+  padding: 10px;
+  border: 1px solid #da70d6;
+  box-shadow: 5px 5px 5px #da70d6;
+}
+
 .row {
   margin-top: 50px;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   justify-content: space-around;
+}
+
+select:focus {
+  color: #da70d6;
+}
+
+.page-btn {
+  margin: 0 auto 80px;
+}
+
+.page-btn span {
+  text-align: center;
+  line-height: 40px;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #da70d6;
+  cursor: pointer;
+}
+
+.page-btn span:hover {
+  background: #da70d6;
+  color: #fff;
+}
+
+.page-btn span:first-child {
+  background: #da70d6;
+  color: #fff;
+}
+
+svg {
+  margin-bottom: -5px;
 }
 
 .col-2 {
