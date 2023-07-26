@@ -53,6 +53,10 @@ body img {
   background: linear-gradient(rgba(243, 115, 211, 0.1), #da70d6);
 }
 
+#sideNav ul li:last-child {
+  display: block;
+}
+
 #sideNav ul {
   color: white;
 }
@@ -462,4 +466,33 @@ td:last-child {
 
 th:last-child {
   text-align: right;
+}
+
+/* for responsive website */
+@media (max-width: 414px) {
+  html {
+    width: 100%;
+  }
+
+  body {
+    scroll-behavior: smooth;
+  }
+
+  #MenuItems {
+    display: none;
+  }
+
+  #menuBtn {
+    display: block;
+    margin: 50px 20px;
+  }
+
+  #sideNav {
+    display: block;
+  }
+
+  #text {
+    font-size: 30px;
+    line-height: normal;
+  }
 }
